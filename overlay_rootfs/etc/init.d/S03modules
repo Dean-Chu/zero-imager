@@ -1,3 +1,4 @@
 #!/bin/sh
 
+echo 4000 > /sys/class/input/input0/device/shutdown
 modprobe g_mass_storage file=/dev/mmcblk0p2 removable=1
