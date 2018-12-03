@@ -1,6 +1,6 @@
 #!/bin/sh
 
-amixer -q sset Headphone 45 unmute
+amixer -q sset Headphone 55 unmute
 amixer -q sset DAC unmute
 amixer -q sset Mic1 unmute
 
